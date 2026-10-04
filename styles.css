@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+#outer, #middle, #inner {
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 300px red ring + 250px orange */
+#outer {
+  width: 300px;
+  height: 300px;
+  border: 25px solid #ff0000;
+  background-color: #ffa500;
+}
+
+/* 200px yellow ring + 150px green */
+#middle {
+  width: 200px;
+  height: 200px;
+  border: 25px solid #ffff00;
+  background-color: #008000;
+}
+
+/* 100px blue ring + 50px purple */
+#inner {
+  width: 100px;
+  height: 100px;
+  border: 25px solid #0000ff;
+  background-color: #800080;
+}
