@@ -1,32 +1,35 @@
-/*  your css code here. If applicable */
+body {
+  margin: 0;
+}
+
 #outer, #middle, #inner {
-  box-sizing: border-box;
+  box-sizing: content-box;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-/* 300px red ring + 250px orange */
+/* 300px red ring, 250px orange */
 #outer {
-  width: 300px;
-  height: 300px;
-  border: 25px solid #ff0000;
+  width: 250px;
+  height: 250px;
   background-color: #ffa500;
+  border: 25px solid #ff0000;
+  padding: 0;
 }
 
-/* 200px yellow ring + 150px green */
+/* 200px yellow ring, 150px green */
 #middle {
-  width: 200px;
-  height: 200px;
-  border: 25px solid #ffff00;
+  width: 150px;
+  height: 150px;
   background-color: #008000;
+  border: 25px solid #ffff00;
+  margin: 25px;
 }
 
-/* 100px blue ring + 50px purple */
+/* 100px blue ring, 50px purple */
 #inner {
-  width: 100px;
-  height: 100px;
-  border: 25px solid #0000ff;
+  width: 50px;
+  height: 50px;
   background-color: #800080;
+  border: 25px solid #0000ff;
+  margin: 25px;
 }
